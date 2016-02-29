@@ -1,0 +1,40 @@
+<html>
+
+<head>
+	<title>Travelling Salesman</title>
+	
+	<link rel="stylesheet" href="salesman.css"> </style>
+	
+	<!-- Awesome Icons --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="traveling.js"> </script>
+</head>
+
+<body>
+
+<header>
+	<h1>Traveling Salesman</h1>
+	<h3>Modeling the Traveling Salesman Problem using Javascript</h3>
+</header>
+
+<main>
+
+	<div id="visualArea">
+	<canvas id="canvas"></canvas>
+	</div>
+
+	<div id="sidebar">
+		<div class="button" id="runSalesmanNearest"><i class="fa fa-play fa-4x"></i><div class="text">Nearest Neighbor</div></div>
+		<div class="button" id="runSalesmanSmallest"><i class="fa fa-play fa-4x"></i><div class="text">Smallest Increase</div></div>
+		<div class="button" id="runSalesmanGreedy"><i class="fa fa-play fa-4x"></i><div class="text">Greedy</div></div>
+		<div class="button" id="addNode"><i class="fa fa-plus-circle fa-4x"></i><div class="text">Add Node</div></div>
+		<div class="button" id="addThousand"><i class="fa fa-plus-circle fa-4x"></i><div class="text">Add 1,000 Nodes</div></div>
+	</div>
+	
+	<div id="distance">Distance: 0</div>
+	
+</main>
+
+</body>
+</html>
