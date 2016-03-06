@@ -127,7 +127,7 @@ $(document).ready(function () {
 					shortestDist = dist;
 				}
 			}
-			path.push(nearestPoints.splice(index, 1)[0]);
+			path.splice(index, 0, nearestPoints.splice(0, 1)[0]);
 			totalDist = totalDist + shortestDist;
 		}
 		
